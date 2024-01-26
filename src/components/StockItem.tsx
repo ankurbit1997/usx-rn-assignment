@@ -10,7 +10,9 @@ const StockItem = ({stockData}: {stockData: Holding}) => {
   return (
     <View style={styles.itemContainer}>
       <View style={styles.row}>
-        <Text style={styles.textBold}>{stockData?.symbol}</Text>
+        <Text style={[styles.textBold, {textTransform: 'uppercase'}]}>
+          {stockData?.symbol}
+        </Text>
         <Text>
           <Text style={styles.textlight}>LTP:</Text>{' '}
           <Text style={styles.textBold}>₹ {stockData?.ltp.toFixed(2)}</Text>

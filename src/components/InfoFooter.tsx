@@ -24,14 +24,14 @@ const InfoFooter = ({
         </Text>
       </View>
       <View style={style.item}>
-        <Text style={style.label}>Today's Profit and Loss:</Text>
+        <Text style={style.label}>Today's Profit & Loss:</Text>
         <Text style={style.amount}>
           ₹{footerData?.todayProfitLoss.toFixed(2)}
         </Text>
       </View>
       <View style={{height: 20}} />
       <View style={style.item}>
-        <Text style={style.label}>Profit and Loss:</Text>
+        <Text style={style.label}>Profit & Loss:</Text>
         <Text style={style.amount}>
           ₹{footerData?.totalProfitLoss.toFixed(2)}
         </Text>
