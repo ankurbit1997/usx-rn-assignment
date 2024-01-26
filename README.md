@@ -16,7 +16,7 @@ yarn start
 
 ## Step 2: Paste the .env
 
-Paste the env file in the root for app to work
+Paste the env file in the root for app to work or copy example env and replace the field
 
 ## Step 3: Start your Application
 
